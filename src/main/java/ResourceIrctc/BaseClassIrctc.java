@@ -30,7 +30,7 @@ public class BaseClassIrctc {
 			
 			ChromeOptions opt=new ChromeOptions();
 			
-			opt.addArguments("disable-notifications");
+			opt.addArguments("disable-notifications","--remote-allow-origins=*");
 			
 			 driver=new ChromeDriver(opt);
 		}
